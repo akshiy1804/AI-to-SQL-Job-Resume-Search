@@ -202,17 +202,6 @@ Open the local URL displayed in the terminal, usually `http://localhost:8501`.
 
 An unsupported request rejected by the AI prompt is different from generated SQL rejected by SQLGlot. Both outcomes should be distinguished during evaluation.
 
-## Results Snapshot
-
-Current audit-log snapshot: **42 requests**.
-
-| Outcome | Count | Percentage |
-|---|---:|---:|
-| Accepted | 23 | 54.76% |
-| Rejected | 11 | 26.19% |
-| Error | 8 | 19.05% |
-
-These figures describe logged outcomes, not validator accuracy. Some errors were API connection failures. Measuring unsafe-query detection and false-rejection rates requires a labelled test set.
 
 ## Limitations and Future Work
 
