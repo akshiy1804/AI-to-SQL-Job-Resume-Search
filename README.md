@@ -2,7 +2,7 @@
 
 Ask questions about jobs and candidates in plain English. An AI model generates SQL, the application validates it, and PostgreSQL executes permitted queries. Request outcomes are recorded in an audit log.
 
-> **Academic DBMS Project:** The AI proposes queries, while application rules and database controls govern execution.
+>  The AI proposes queries, while application rules and database controls govern execution.
 
 ## Table of Contents
 
